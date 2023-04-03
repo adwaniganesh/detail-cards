@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: roboto-medium;
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url(./../../assinments-css/fonts/Roboto-Medium.ttf);
+}
+#main{
+    background-color: blue;
+    height: 150px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#box-1{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+#box-2{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 65%;
+    height: 600px;
+    float: right;
+}
+#image{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin: 120px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#heading-1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+#span-1{
+    text-transform: uppercase;
+}
+#p-1{
+    text-transform: capitalize;
+    text-align: center;
+    color: gray;
+}
+#p-2{
+    border: 1px solid gray;
+    padding: 15px;
+    padding-left: 20px;
+    border-left: none;
+    border-right: none;
+    margin-top: 30px;
+}
+#p-3{
+    padding: 15px;
+    padding-left: 20px;
+}
+#p-4{
+    padding: 15px;
+    padding-left: 20px;
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+}
+#p-5{
+    color: gray;
+    text-transform: capitalize;
+    margin: 20px;
+    padding: 10px;
+    width: 310px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+#p-6{
+    margin: 20px;
+    padding: 10px;
+    width: 310px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#span-2{
+    color: orange;
+}
+#span-3{
+    color: greenyellow;
+}
+#span-4{
+    color: gray;
+}
+#header{
+    border: 1px solid gray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#a-1{
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+#a-2{
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: gray;
+    text-decoration: none;
+}
+#p-7{
+    margin-top: 40px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+input{
+    margin-left: 20px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#body-1,#body-2,#body-3{
+    display: inline-flex;
+}
+select{
+    margin-left: 20px;
+    width: 372px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;    
+}
+#last{
+    border: 1px solid gray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 100px;
+}
+button{
+    text-transform: capitalize;
+    color: white;
+    background-color: blue;
+    /* border: 1px solid gray; */
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 30px;
+    border: none;
+}

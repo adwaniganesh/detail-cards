@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: roboto-medium;
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url(./../fonts/Roboto-Medium.ttf);
+}
+body{
+    background-color: blue;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#main{
+    width: 78%;
+    background-color: white;
+    border-radius: 5px;
+}
+#header{
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 20px;
+    display: inline-flex;
+}
+#header-img1{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+#header-hading{
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+#header-input{
+    width: 200px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 40px;
+}
+#header-p1,#header-p2,#header-p4{
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#header-p3{
+    color: blue;
+    background-color: aliceblue;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-left: 20px;    
+}
+#header-img2{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+#body{
+    display: inline-flex;
+}
+#div1{
+    display: inline-flex;
+}
+#body-div1-img1{
+    width: 200px;
+    height: 250px;
+    margin: 50px;
+}
+#div1{
+    margin-top: 50px;
+}
+#body-p1{
+    text-transform: capitalize;
+    color: gray;
+    margin-top: 10px;
+}
+#body-s1{
+    text-transform: uppercase;
+}
+#image1{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+#body-p2{
+    color: blue;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+#body-p3{
+    color: gray;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#div2{
+    display: inline-flex;
+}
+#image2{
+    width: 15px;
+    height: 15px;
+}
+#body-p4{
+    font-size: 20px;
+    margin-right: 10px;
+}
+#div3{
+    display: inline-flex;
+    padding-top: 50px;
+}
+#div3-1,#div3-2{
+    display: inline-flex;
+}
+#p1{
+    margin-right: 30px;
+}
+#p2{
+    color: blue;
+    background-color: aliceblue;
+}
+#div1-1{
+    color: gray;
+    text-transform: uppercase;
+    margin: 50px;
+    margin-top: 0px;
+}
+#paragraph2{
+    border-bottom: 1px solid gray;
+    margin-left: 60px;
+}
+#div1-1{
+    margin-left: 50px;
+}
+#div2-2{
+    display: inline-flex;
+}
+#h3-1{
+    text-transform: capitalize;
+    margin-left: 20px;
+    float: left;
+}
+#h3-2{
+    color: blue;
+    background-color: aliceblue;
+    padding: 10px;
+    float: right;
+}
